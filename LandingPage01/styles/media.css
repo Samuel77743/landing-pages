@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1173px){
+    
+    header{
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    li{
+        margin: 0px;
+    }
+
+    .menu{
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        padding: 15px;
+        margin-bottom: 0px;
+
+    }
+
+    main{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    form{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    input{
+        align-self: center;
+        width: 500px;
+    }
+
+    ul{
+        text-align: center;
+    }
+    
+    #conta{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    img{
+        margin: 40px 0px 0px 300px;
+        padding: 0px;
+        width: 220px;
+    }
+
+    body{
+        padding-bottom: 0px;
+
+    }
+
+    footer{
+        margin-bottom: 8px;
+    } 
+}
+
+    

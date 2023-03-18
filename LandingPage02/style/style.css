@@ -1,0 +1,198 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'the-batman';
+    src: url(../fonte/the-batman.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    /*Fundo Azul*/
+    --cor1: #032e58;
+    --cor2: #06032c;
+
+    /*Fundo Cinza*/
+    --cor3: #2f393d;
+    --cor4: #010509;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(68deg, var(--cor1)  5%, var(--cor2));
+    background-attachment: fixed ;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+#logo{
+    height: 72px
+}
+
+#menu{
+    display: flex;
+    gap: 40px;
+}
+
+.links{
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+
+}
+
+.links:hover{
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.432);
+    color: yellow;
+    transition: 0.4s all;
+}
+
+.links:active{
+    text-decoration: underline;
+    color: red;
+}
+
+#historia{
+    border: 2px solid #ee9c1b;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#conteudo{
+    border-top: 2px solid #ee9c1b;
+    margin-bottom: 48px;
+}
+
+#sessao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+h1{
+    font-family: 'the-batman', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #df2321;
+} 
+
+h2{
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+
+#imagem-main{
+    height: 450px;
+}
+
+#textos{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#botao{
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(14, 2, 51);
+    background-color: #ee9c1b;
+    margin-top: 20px;
+    font-family: 'the-batman';
+    font-weight: light;
+    font-size: 40px;
+}
+
+#botao:hover{
+    cursor: pointer;
+    color: #df2321;
+    text-shadow: 2px 2px black ;
+    transition: 0.3s all;
+    box-shadow: 2px 2px 5px 1px #df2321;
+}
+
+#botao:active{
+    color:rgb(14, 14, 121);
+    cursor: progress;
+    transition: 0s;
+}
+
+#sessao2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+h3{
+    padding-top: 20px;
+    border-top: 2px solid #ee9c1b ;
+    font-family: 'the-batman', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: white;
+}
+
+#paragrafos{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    padding: 4px;
+    border: 4px solid #ee9c1b;
+    border-radius: 10px;
+}
+
+.descricao{
+    padding: 10px;
+}
+
+.destaque{
+    color: #df2321;
+    font-family: 'the-batman', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: #ee9c1b;
+}
+#autor{
+    font-family: 'Sarala';  
+    font-weight: 300;
+    font-size: 20px;
+    padding: 4px;
+}
+
+#autor > strong{
+    font-family: Arial;
+}
+
+span{
+    background-color: #df2321;
+    border-radius: 5px;
+    padding: 4px;
+    
+}
