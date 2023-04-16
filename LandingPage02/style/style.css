@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'the-batman';
-    src: url(../fonte/the-batman.otf);
+    src: url(../fonte/the-batman.otf) format('OpenType');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Sarala:wght@400;700&display=swap');
@@ -51,7 +51,9 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: bold;
     color: white;
-    padding: 4px;
+    padding: 6px;
+    
+    
 
 }
 
